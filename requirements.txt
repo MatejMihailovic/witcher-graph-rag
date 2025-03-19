@@ -8,7 +8,6 @@ nano_vectordb==0.0.4.3
 neo4j==5.28.1
 nest_asyncio==1.6.0
 networkx==3.4.2
-numpy==2.2.4
 openai==1.66.5
 pydantic==2.10.6
 pypdf==5.4.0
@@ -19,3 +18,5 @@ tenacity==9.0.0
 tiktoken==0.9.0
 tqdm==4.67.1
 xxhash==3.5.0
+pipmaster==0.5.1
+future==1.0.0
