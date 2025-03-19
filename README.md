@@ -60,8 +60,12 @@ python main.py
 ```
 
 ## 🎯 TODOs / Future Improvements
-✅ Experiment with different embedding models.
+✅ Experiment with different embedding models
+
 ✅ Fine-tune QueryParam settings for faster and more relevant responses.
+
 ✅ Add support for more books from "The Witcher" franchise.
+
 🔲 Improve response formatting.
+
 🔲 Add a frontend UI instead of Gradio.
