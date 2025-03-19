@@ -1,6 +1,28 @@
 # Witcher Graph RAG Chatbot
 
-This is a **Graph-based Retrieval-Augmented Generation (RAG) chatbot** built using **LightRAG** and **Gradio**. It allows users to query information about *The Last Wish* (the first Witcher book) and get AI-generated responses.
+## 📌 Project Summary
+This project is a **Graph-based RAG chatbot** using LightRAG and OpenAI's GPT. It allows querying knowledge extracted from *The Last Wish* book.
+
+## 🚀 Implementation Process
+1. **Data Extraction & Preprocessing**  
+   - Extracted text from PDF, applied **cleaning functions** to normalize text.
+   
+2. **Graph RAG Initialization**  
+   - Used **LightRAG** with OpenAI embeddings for knowledge storage.
+   - Configured `QueryParam` for optimized retrieval.
+
+3. **Chatbot Interface**  
+   - Implemented using **Gradio** for an interactive UI.
+   - Handled **query processing, logging, and error handling**.
+
+4. **Performance Optimizations**  
+   - Adjusted retrieval settings (`top_k`, `max_tokens`) for **faster responses**.
+
+## 🧐 Key Findings
+- **Graph-based retrieval improves structured responses** over simple embeddings.
+- **Hybrid mode for retrieval** (`QueryParam(mode="hybrid")`) provides **best context**.
+- **Reducing `top_k` to 10-20** improves query speed without but loses accuracy.
+- **Reducing 'max_tokens_*'** improves query speed and retains accuracy.
 
 ## 🚀 Features
 
@@ -36,3 +58,10 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```bash
 python main.py
 ```
+
+## 🎯 TODOs / Future Improvements
+✅ Experiment with different embedding models.
+✅ Fine-tune QueryParam settings for faster and more relevant responses.
+✅ Add support for more books from "The Witcher" franchise.
+🔲 Improve response formatting.
+🔲 Add a frontend UI instead of Gradio.
