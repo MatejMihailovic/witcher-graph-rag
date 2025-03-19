@@ -5,10 +5,10 @@ This project is a **Graph-based RAG chatbot** using LightRAG and OpenAI's GPT. I
 
 ## 🚀 Implementation Process
 1. **Data Extraction & Preprocessing**  
-   - Extracted text from PDF, applied **cleaning functions** to normalize text.
+   - Extracted text from PDF using **PyPdf**, applied **cleaning functions** to normalize text.
    
 2. **Graph RAG Initialization**  
-   - Used **LightRAG** with OpenAI embeddings for knowledge storage.
+   - Used **[LightRAG](https://github.com/HKUDS/LightRAG)** with OpenAI embeddings for knowledge storage.
    - Configured `QueryParam` for optimized retrieval.
 
 3. **Chatbot Interface**  
