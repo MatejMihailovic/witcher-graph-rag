@@ -37,7 +37,7 @@ This project is a **Graph-based RAG chatbot** using LightRAG and OpenAI's GPT. I
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/witcher-graph-rag.git
+git clone https://github.com/MatejMihailovic/witcher-graph-rag.git
 cd witcher-graph-rag
 ```
 
