@@ -8,7 +8,6 @@ This is a **Graph-based Retrieval-Augmented Generation (RAG) chatbot** built usi
 - **OpenAI GPT-based completion** for answering queries.
 - **Text preprocessing** to clean and format input data.
 - **Gradio Interface** for easy interaction.
-- **.env configuration** for API key management.
 
 ---
 
@@ -24,7 +23,7 @@ cd witcher-graph-rag
 ```bash
 pip install -r requirements.txt
 ```
-## 🔑 Setting Up Environment Variables*
+## 🔑 Setting Up Environment Variables
 1. Create a .env file in the project root:
 ```bash
 touch .env
