@@ -21,8 +21,8 @@ This project is a **Graph-based RAG chatbot** using LightRAG and OpenAI's GPT. I
 ## 🧐 Key Findings
 - **Graph-based retrieval improves structured responses** over simple embeddings.
 - **Hybrid mode for retrieval** (`QueryParam(mode="hybrid")`) provides **best context**.
-- **Reducing `top_k` to 10-20** improves query speed without but loses accuracy.
-- **Reducing 'max_tokens_*'** improves query speed and retains accuracy.
+- **Reducing `top_k` to 10-20** improves query speed but loses accuracy.
+- **Reducing 'max_tokens'** improves query speed and retains accuracy.
 
 ## 🚀 Features
 
